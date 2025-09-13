@@ -1,6 +1,6 @@
-import ast
-import tokenize
-import io
+import ast # abstract syntax tree
+import tokenize #  tokenizing Python source code
+import io # for in-memory text streams like StringIO 
 
 
 def remove_comments_and_docstrings(source: str) -> str:
